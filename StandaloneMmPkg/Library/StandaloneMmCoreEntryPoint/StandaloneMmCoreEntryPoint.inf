@@ -56,3 +56,4 @@
 
 [BuildOptions]
   GCC:*_*_*_CC_FLAGS = -fpie
+  CLANGPDB:*_*_*_CC_FLAGS = -fno-pie

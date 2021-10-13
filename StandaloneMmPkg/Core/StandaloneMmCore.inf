@@ -79,3 +79,5 @@
 [BuildOptions]
   GCC:*_*_*_CC_FLAGS = -fpie
   GCC:*_*_*_DLINK_FLAGS = -Wl,-z,text,-Bsymbolic,-pie
+  CLANGPDB:*_*_*_CC_FLAGS = -fno-pie
+  CLANGPDB:*_*_*_DLINK_FLAGS =
